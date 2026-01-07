@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;    /* to place the padding inside border; */
+}
+/* Shared Style */
+
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.logo h2{
+    font-size: 900;
+
+}
+
+.logo-color{
+    color: #FD6E0A;
+}
+
+.btn{
+background-color: #FD6E0A;
+border: none;
+padding: 18px 35px;
+border-radius: 5px;
+font-size: 20px;
+color: white;
+}
+/* Main Style */
+header{
+    padding-top: 40px;
+    background-color:#FFF8F3 ;
+}
+nav{
+    width:71% ;
+    max-width: 1140;
+    /* border:solid black; */
+    margin: 0px auto;  Means  /* Top Bottom 0 margon and left right as much as you can */;
+    display:flex ;  /* to add all nav menus in same line ; */
+    justify-content: space-between; /* to add space between logo and nav menu; */
+    align-items: center;     /* to add logo and menu in the same line; */
+   
+   
+
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;   /* to remove the dot's on the menu */
+    gap: 51px;
+    align-items: center;
+   
+}
+
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;   /* to remove underline from the text */
+
+}
