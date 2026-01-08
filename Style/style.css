@@ -51,6 +51,9 @@ cursor: pointer;
     
 }
 
+.text-center {
+    text-align: center;
+}
 
 
 /* Main Style */
