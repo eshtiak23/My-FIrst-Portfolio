@@ -13,7 +13,8 @@
 
 
 .logo h2{
-    font-size: 900;
+    font: size 32px;
+    font-weight: 900;
 
 }
 
@@ -62,9 +63,9 @@ header{
 }
 nav{
     width:71% ;
-    max-width: 1140;
+    max-width: 1140px;
     /* border:solid black; */
-    margin: 0px auto;  Means  /* Top Bottom 0 margon and left right as much as you can */;
+    margin: 0 auto;  Means  /* Top Bottom 0 margon and left right as much as you can */;
     display:flex ;  /* to add all nav menus in same line ; */
     justify-content: space-between; /* to add space between logo and nav menu; */
     align-items: center;     /* to add logo and menu in the same line; */
@@ -92,7 +93,7 @@ nav .menu a{
 
 #banner{
     
-    margin: 47px 38px 0px 230px;
+    margin: 47px 38px 0 230px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,8 +137,8 @@ nav .menu a{
 
 #about .about-container{
     width: 71%;
-    max-width: width 1140px; ;
-    margin:  o;
+    max-width: 1140px; ;
+    margin:  0 auto;
     text-align: center;
     background-color: #FFF8F3;
     padding: 131px 156px;
