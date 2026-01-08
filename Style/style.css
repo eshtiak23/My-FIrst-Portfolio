@@ -285,3 +285,159 @@ footer .footer-container{
     border-radius: 5px;
     color: #757575;
 }
+
+
+
+
+
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* ---------- Tablets (≤ 992px) ---------- */
+@media (max-width: 992px) {
+
+    nav {
+        width: 90%;
+    }
+
+    #banner {
+        margin: 60px auto 0;
+        padding: 0 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 60px;
+    }
+
+    #banner .banner-content p {
+        font-size: 22px;
+        line-height: 36px;
+    }
+
+    #banner .banner-image img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    #about .about-container {
+        padding: 80px 40px;
+    }
+
+    #skills .skills-container .skills-box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .resume-container {
+        flex-direction: column;
+    }
+
+    .resume-card {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    footer .footer-container {
+        flex-direction: column;
+        gap: 60px;
+    }
+}
+
+
+
+
+
+
+/* ---------- Mobile (≤ 768px) ---------- */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav .menu {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #banner .banner-content h2 {
+        font-size: 32px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 48px;
+    }
+
+    #banner .banner-content p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .btn {
+        padding: 14px 24px;
+        font-size: 16px;
+    }
+
+    #about .about-container {
+        width: 90%;
+        padding: 60px 20px;
+    }
+
+    #about .about-info {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #skills .skills-container {
+        width: 90%;
+    }
+
+    .skills-box .skill-card {
+        max-width: 100%;
+    }
+
+    #resume .resume-container {
+        width: 90%;
+    }
+
+    footer {
+        padding: 80px 0;
+    }
+
+    footer .footer-container {
+        width: 90%;
+    }
+
+    .footer-container form input[type="text"],
+    .footer-container form textarea {
+        width: 100%;
+    }
+}
+
+/* ---------- Small Mobile (≤ 480px) ---------- */
+@media (max-width: 480px) {
+
+    .section-heading h2 {
+        font-size: 28px;
+    }
+
+    .section-heading p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    #banner .banner-content h1 {
+        font-size: 38px;
+    }
+
+    footer .footer-container h2 {
+        font-size: 28px;
+    }
+}
